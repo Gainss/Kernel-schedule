@@ -2,11 +2,7 @@ name: Kernel_schedule
 
 
 on:
-   schedule:
-    - cron: "45 15 * * *"
-   workflow_dispatch:
-   pull_request_target:
-    branches: [ schedule-1.0 ]
+
 
 
 jobs:
